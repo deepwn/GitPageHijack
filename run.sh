@@ -4,7 +4,7 @@
 # code by evil7@deepwn at 2018-5-13
 #
 # usage:
-# run into local > `git clone https://github.com/deepwn/GitPageHijack && cd GitPageHijack.git && bash run.sh`
+# run into local > `git clone https://github.com/deepwn/GitPageHijack.git && cd GitPageHijack && bash run.sh`
 # run from remote > `curl -sL 'https://raw.githubusercontent.com/deepwn/GitPageHijack/run.sh' | bash`
 #
 # This POC will searching commits about 'Create CNAME' info since last some day to now.
@@ -16,7 +16,7 @@
 
 function start() {
 	search="Create CNAME" # Searching words
-	lmt_day=1             # Limit from some days befor
+	lmt_day=2             # Limit from some days befor
 	retry=10              # How many times can retry
 	init_th=10            # Nmbers of threads
 	init_ck=""            # use 1 to input cookie after run (not support in remote)
@@ -144,6 +144,9 @@ function getPage() { # get links list of search. But Github limit 10link / 1min 
 			ppp=$(($ppp / 10))
 		else
 			ppp=$(($ppp / 10 + 1))
+		fi
+		if [[ $ppp > 100 ]]; then
+			ppp=100
 		fi
 	else
 		echo "[!] Can't get page and results. Default set 100 pages."
