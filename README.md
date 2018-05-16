@@ -48,18 +48,21 @@ Just testing with `run.sh` to get limit 1 day's data we can found 11 vulnerables
 
 2018-05-14 (day: 13--14)
 
+![](20180516161559.png)
+
 ```
-11894565848c26.erisesoft.com
-bevis.me
-devcode.work
-httpforge.aspyct.org
-ingy.pyrl.org
-mail.aulos.org
-old.qore.org
-owncloud.seagl.org
-server.asymptopia.org
-shitcoindeluxe.org
-sky.max.pub
+androidx.de
+bayes.dk
+claudiuandrei.com
+crunchbitcoin.com
+eskont.ponomarevlad.ru
+fwb.app
+goldtum.com
+hijack.michellerobinscreative.com (come from my demo)
+lit.max.pub
+paulispace.com
+sumit.app
+valuate.app
 ```
 
 ## Advice:
