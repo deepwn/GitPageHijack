@@ -74,7 +74,7 @@ So why don't let peoples set a verify repo-name or username org-name in 'TXT' re
 
 Then server go check the DNS if a wildcard only should host for one username. just like some custom domain set in Mail-servers, used 'TXT' to verify the mail domain.
 
-By this way we can contorl which repo can using this sub-domain and stop hosting if some one hijacking my page.
+By this way we can control which repo can using this sub-domain and stop hosting if some one hijacking my page.
 
 ## At last
 
