@@ -1,5 +1,7 @@
 # GitPageHijack
 
+![](GitHub.png)
+
 OK now. Let's hijack github user's custom domain.
 
 And I cearted this repo for quick checking with this idea.
