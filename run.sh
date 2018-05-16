@@ -5,7 +5,7 @@
 #
 # usage:
 # run into local > `git clone https://github.com/deepwn/GitPageHijack.git && cd GitPageHijack && bash run.sh`
-# run from remote > `curl -sL 'https://raw.githubusercontent.com/deepwn/GitPageHijack/run.sh' | bash`
+# run from remote > `curl -sL 'https://raw.githubusercontent.com/deepwn/GitPageHijack/master/run.sh' | bash`
 #
 # This POC will searching commits about 'Create CNAME' info since last some day to now.
 # And checked if CNMAE file exist.
